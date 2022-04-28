@@ -3,30 +3,28 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-  justify-content: center;
-    
-    
+  justify-content: center; 
 }
 *{box-sizing: border-box;}
 #peli{
     background-color: rgb(40, 39, 39);
     border-radius: 5px;
-
 }
 h1{
     text-align: center;
 }
-#pisteet{
-    
+#pisteet{    
     background-color:crimson ;
     color: darkorange;
     font-size: 1.5em;
     padding-left: 1em;
-    padding-right: 1em;
-    
+    padding-right: 1em;    
 }
 button{
     font-size: 1.2em;
     color: darkorange;
     background-color: crimson;
+}
+#auto{
+    display:none;
 }

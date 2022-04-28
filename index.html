@@ -9,12 +9,15 @@
 
 </head>
 <body>
+    <audio id="palloaani" src="aanet/palloaani.mp3"></audio>
+   
     <h1>CANVAS API PELI</h1>
-    <div><button id="aloita" onclick="aloita()">ALOITA PELI!</button>
+    <div><button id="aloita" onclick="aloita()"disabled >ALOITA PELI!</button>
     <button id="lopeta" onclick="lopeta()">LOPETA PELI!</button>
-    <button id="pysayta" onclick="pysayta()">PYSÄYTÄ PELI!</button><a id="pisteet"> 0 PISTETTÄ</a></div>
+    <button id="pysayta" onclick="pysayta()"  >PYSÄYTÄ PELI!</button></div>
+    <a id="pisteet"> 0 PISTETTÄ</a>
     <canvas id="peli" width="600" height="600" ></canvas>
-
+    <img src="kuvat/auto.png" alt="" id="auto">
     
     
 </body>
