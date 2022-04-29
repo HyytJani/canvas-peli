@@ -9,7 +9,7 @@ let aika;
 let ajastin;
 let pelipaalla=false;
 let palloaika;
-let taso=6;
+let taso;
 let kerattavatAika=Math.random()*3000;
 let tieNopeus;
 let keskiviivaAika;
@@ -27,6 +27,7 @@ document.querySelector('#aloita').disabled=false;
 function aloita(){
     aika=40;
     fuel=0;
+    taso=6;
     pisteet=0;
     pelaaja=new Pelaaja(canvas.width/2-25,canvas.height-125,70,110,'red',0,0,4)
     tieNopeus=1.5;
