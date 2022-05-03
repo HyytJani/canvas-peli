@@ -168,7 +168,7 @@ function pelinTulostus(){
         ctx.fillStyle='yellow';
         ctx.fillText(aika,50,50);
         ctx.fillText('SEURAAVA TASO',320,50);
-        ctx.fillText(fuel+'/'+taso,350,80)
+        ctx.fillText(fuel+'/'+taso,520,80)
         ctx.fill()
         document.querySelector("#pisteet").innerHTML=pisteet+' PISTETTÄ';    }
 
@@ -250,7 +250,7 @@ function tasot(){
         kertoja=kertoja-40; 
         setTimeout(() => {
                 kaynnista();
-            }, 5000);
+            }, 3000);
         ctx.beginPath();
         ctx.font='30px serif';
         ctx.fillStyle='blue';
